@@ -12,6 +12,7 @@ Uma API simples para calcular juros compostos de um parcelamento. Recebe uma jso
 Calcula o valor das parcelas com base nos parâmetros fornecidos.
 
 ### Parâmetros de entrada
+
 ```html
 value (number): O valor total a ser financiado.
 interestPercentage (number): A taxa de juros.
@@ -53,4 +54,10 @@ Exemplo do JSON de retorno:
 ## Stack utilizada
 
 **Back-end:** Java 17, Spring Boot
+
+
+## Implementado testes unitarios
+
+A classe CalculateInterestServiceTests é responvel por testar a service CalculateInterestService
+
 
